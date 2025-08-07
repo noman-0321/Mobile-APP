@@ -1,0 +1,22 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "patienthealthmonitor-8c8c1",
+          "appId": "1:549955671143:android:2d2d765bf2421ffd9930c2",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "patienthealthmonitor-8c8c1",
+          "configurations": {
+            "android": "1:549955671143:android:2d2d765bf2421ffd9930c2"
+          }
+        }
+      }
+    }
+  },
+  "database": { "rules": "database.rules.json" }
+}

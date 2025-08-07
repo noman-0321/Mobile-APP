@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "549955671143",
+    "firebase_url": "https://patienthealthmonitor-8c8c1-default-rtdb.firebaseio.com",
+    "project_id": "patienthealthmonitor-8c8c1",
+    "storage_bucket": "patienthealthmonitor-8c8c1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549955671143:android:2d2d765bf2421ffd9930c2",
+        "android_client_info": {
+          "package_name": "com.example.health_monitoring_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOHk45BoxbReTsMIJ4xHQlYqxhDknEVio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
