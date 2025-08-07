@@ -1,17 +1,37 @@
-# health_monitoring_system
+# Flutter Mobile App
 
-A new Flutter project.
+This is the client app for the health monitoring system.
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+- Flutter SDK: https://flutter.dev/docs/get-started/install
+- Android Studio or VS Code with Flutter plugins
+- Firebase project (for auth/database)
 
-A few resources to get you started if this is your first Flutter project:
+## Setup
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone repo or download zip
+2. Fetch packages:
+    flutter pub get
+3. Connect device or start emulator
+4. Run app:
+    flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# health-monitoring-system
+## Firebase Integration
+
+1. Add `google-services.json` to `android/app/`
+2. Add `GoogleService-Info.plist` to `ios/Runner/` (if building for iOS)
+3. Ensure `Firebase.initializeApp()` is called in `main.dart`
+
+## Building APK / AAB
+
+- Build APK:
+    flutter build apk --release
+
+- Build App Bundle:
+    flutter build appbundle --release
+
+## Notes
+
+- App connects to backend WebSocket at `/ws/predict`
+- Displays real-time predictions and health status
